@@ -1,0 +1,84 @@
+<script type="text/javascript">
+jQuery(document).ready(function() {
+// Hide the div
+// jQuery('#reveal').hide();
+jQuery('.rv_button1').click(function(e){
+e.preventDefault();
+jQuery("#reveal1").slideToggle();
+// Hide the div
+jQuery('#reveal2').hide();
+jQuery('#reveal3').hide();
+jQuery('#reveal4').hide();
+jQuery('#reveal5').hide();
+jQuery('.rv_button1').toggleClass('opened closed');
+});
+});
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+// Hide the div
+jQuery('#reveal2').hide();
+jQuery('.rv_button2').click(function(e){
+e.preventDefault();
+jQuery("#reveal2").slideToggle();
+// Hide the div
+jQuery('#reveal1').hide();
+jQuery('#reveal3').hide();
+jQuery('#reveal4').hide();
+jQuery('#reveal5').hide();
+jQuery('.rv_button2').toggleClass('opened closed');
+});
+});
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+// Hide the div
+jQuery('#reveal3').hide();
+jQuery('.rv_button3').click(function(e){
+e.preventDefault();
+jQuery("#reveal3").slideToggle();
+// Hide the div
+jQuery('#reveal1').hide();
+jQuery('#reveal2').hide();
+jQuery('#reveal4').hide();
+jQuery('#reveal5').hide();
+jQuery('.rv_button3').toggleClass('opened closed');
+});
+});
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+// Hide the div
+jQuery('#reveal4').hide();
+jQuery('.rv_button4').click(function(e){
+e.preventDefault();
+jQuery("#reveal4").slideToggle();
+// Hide the div
+jQuery('#reveal1').hide();
+jQuery('#reveal2').hide();
+jQuery('#reveal3').hide();
+jQuery('#reveal5').hide();
+jQuery('.rv_button4').toggleClass('opened closed');
+});
+});
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function() {
+// Hide the div
+jQuery('#reveal5').hide();
+jQuery('.rv_button5').click(function(e){
+e.preventDefault();
+jQuery("#reveal5").slideToggle();
+// Hide the div
+jQuery('#reveal1').hide();
+jQuery('#reveal2').hide();
+jQuery('#reveal3').hide();
+jQuery('#reveal4').hide();
+jQuery('.rv_button5').toggleClass('opened closed');
+});
+});
+</script>
